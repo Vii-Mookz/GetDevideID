@@ -25,7 +25,7 @@ import java.util.UUID;
 
 public class AndroidTelephonyManager extends Activity {
     protected static volatile UUID uuid;
-    @RequiresApi(api = Build.VERSION_CODES.N)
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,8 +81,8 @@ public static String getSerial() {
                 return "CDMA: MEID/ESN=" + id;
 
             default:
-                return "UNKNOW: ID=" + id;
+                return "UNKNOWN: ID=" + id;
         }
     }
-    
+
 }

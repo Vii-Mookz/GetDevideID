@@ -14,9 +14,8 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="88dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="IMEI" />
 
         <TextView
@@ -47,9 +46,8 @@
 
                 <TextView
                     android:id="@+id/txtS"
-                    android:layout_width="match_parent"
+                    android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="S/N" />
 
                 <TextView
@@ -68,9 +66,8 @@
 
                 <TextView
                     android:id="@+id/txtSim"
-                    android:layout_width="match_parent"
+                    android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="Sim S/N" />
 
                 <TextView
@@ -89,9 +86,8 @@
 
                 <TextView
                     android:id="@+id/txtunknow"
-                    android:layout_width="match_parent"
+                    android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="Check" />
 
                 <TextView
@@ -102,14 +98,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <Linearlayout android:layout_height="fill_parent"
-                android:layout_width="fill_parent"
-                android:orientation="vertical">
-                <Textview android:id="@+id/call"
-                    android:layout_height="fill_parent"
-                    android:layout_width="fill_parent">
-                </Textview>
-            </Linearlayout>
+
 
         </LinearLayout>
 
