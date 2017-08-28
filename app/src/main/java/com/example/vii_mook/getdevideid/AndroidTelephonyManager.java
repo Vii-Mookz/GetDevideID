@@ -43,7 +43,7 @@ public class AndroidTelephonyManager extends Activity {
 
 //        txtSNMobile.setText(uuid.toString());
         txtSNMobile.setText(getSerial());
-//        txtCheck.setText(telephonyManager.getCallState());
+        txtCheck.setText(telephonyManager.getLine1Number());
 }
 
 
